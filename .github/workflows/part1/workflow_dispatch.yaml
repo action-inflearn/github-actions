@@ -1,7 +1,7 @@
 name: workflow-dispatch
 on:
   workflow_dispatch:
-    inputs:
+    inputs: #inputs를 설정하면 수동으로 workflow를 실행할때 inputs를 임의로 수정 할 수 있음
       name:
         description: 'set name'
         required: true
